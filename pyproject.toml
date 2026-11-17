@@ -7,7 +7,9 @@ authors = [
     { name = "Rayan Hamma", email = "357900969+HRayan-DatAI@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mistralai>=3.7.0",
+]
 
 [project.scripts]
 hrecord = "hrecord:main"
