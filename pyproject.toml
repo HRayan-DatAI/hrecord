@@ -1,0 +1,17 @@
+[project]
+name = "hrecord"
+version = "0.1.0"
+description = "AI assistant that turns employee SMS requests into a structured HR record for small businesses"
+readme = "README.md"
+authors = [
+    { name = "Rayan Hamma", email = "357900969+HRayan-DatAI@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+hrecord = "hrecord:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
